@@ -509,4 +509,30 @@ max-width: 100%;
         left: 10px;
         top: -40px;
     }
+
+    .section-title {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about .section-title h2::before {
+        width: 100%;
+    }
+
+    .about .section-title h2::after {
+        display: none;
+    }
+
+    .contact .section-title h2::before {
+        width: 100%;
+    }
+
+    .contact .section-title h2::after {
+        display: none;
+    }
+
+    .contact .contact-form .col-12 {
+        text-align: center;
+    }
 }
