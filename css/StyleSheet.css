@@ -471,7 +471,7 @@ max-width: 100%;
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .h3.hello span {
+    .home .home-info h3.hello span {
         display: inline-block;
     }
 }
