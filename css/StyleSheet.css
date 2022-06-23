@@ -307,6 +307,10 @@ h3.my-attitude {
 }
 
 /* Contact Me */
+.contact {
+    padding-top:30px;
+}
+
 .contact-title {
     color: var(--skin-color);
     text-align: center;
