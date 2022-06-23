@@ -490,3 +490,23 @@ max-width: 100%;
         display: block;
     }
 }
+
+@media (max-width: 479px) {
+    .home {
+        padding-top: 60px
+    }
+
+    .home .home-img .image2 {
+        display: block;
+    }
+
+    .home-img::after {
+        right: 10px;
+        bottom: -40px;
+    }
+
+    .home-img::before {
+        left: 10px;
+        top: -40px;
+    }
+}
