@@ -142,11 +142,17 @@ body.dark {
         left: 30px;
         top: -80px;
     }
+
 .home .home-img img {
     margin: auto;
     border-radius: 5px;
     height: 400px;
 }
+
+.home .home-img .image2 {
+    display: none;
+}
+
 /* Home Info Start */
 .home .home-info {
     flex: 0 0 60%;
@@ -473,5 +479,14 @@ max-width: 100%;
     }
     .home .home-info h3.hello span {
         display: inline-block;
+    }
+}
+
+@media (max-width: 599px) {
+    .home .home-img .image1 {
+        display: none;
+    }
+    .home .home-img .image2 {
+        display: block;
     }
 }
